@@ -27,28 +27,20 @@
                         <li class="nav__item"><a href="#" class="nav__link">Часто задаваемые вопросы</a></li>
                     </ul>
                 </nav>
-                <div class="header__search">
-                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M24.8474 23.3745L17.5851 16.1122C18.9626 14.4116 19.7917 12.2497 19.7917 9.89588C19.7917 4.43932 15.3524 0 9.89583 0C4.43927 0 0 4.43932 0 9.89588C0 15.3524 4.43932 19.7918 9.89588 19.7918C12.2497 19.7918 14.4116 18.9626 16.1122 17.5852L23.3745 24.8475C23.5779 25.0508 23.9076 25.0508 24.1111 24.8475L24.8475 24.1111C25.0508 23.9076 25.0508 23.5778 24.8474 23.3745ZM9.89588 17.7084C5.58781 17.7084 2.08336 14.2039 2.08336 9.89588C2.08336 5.58781 5.58781 2.08336 9.89588 2.08336C14.2039 2.08336 17.7084 5.58781 17.7084 9.89588C17.7084 14.2039 14.2039 17.7084 9.89588 17.7084Z"
-                            fill="white" />
-                    </svg>
-                </div>
             </div>
 
         </header>
         <section class="main__section hero__section">
             <div class="container hero__container">
                 <h1 class="hero__header">
-                    Lorem ipsum dolor sit amet consectetur
+                    Отчёт по монтажу ЛВС
                 </h1>
                 <p class="hero__descr">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eius beatae quisquam ad&nbsp;dolorem
-                    iusto.
+                    Сайт-отчёт по монтажу ЛВС в офисном помещении
                 </p>
-                <button class="hero__button btn-reset btn">
+                <!-- <button class="hero__button btn-reset btn">
                     Lorem
-                </button>
+                </button> -->
             </div>
         </section>
         <section class="main__section about__section">
@@ -57,20 +49,38 @@
                     <li class="about__item">
 
                         <h3 class="about__header">
-                            Lorem ipsum
+                            Работу выполнили
                         </h3>
                         <p class="about__descr">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-                            corrupti esse voluptates nulla facere veniam vitae.
+
+                        <ul class="about__sublist sublist list-reset">
+                            <li class="sublist__item">
+                                <h2 class="sublist__header">
+                                    Верстка, Дизайн:
+                                </h2>
+                                <p class="sublist__par">
+                                    Шеховцов Глеб Евгеньевич
+                                </p>
+                            </li>
+                            <li class="sublist__item">
+                                <h2 class="sublist__header">
+                                    Редактура:
+                                </h2>
+                                <p class="sublist__par">
+                                    Панина Марина Валерьевна
+                                </p>
+                            </li>
+                        </ul>
+
                         </p>
                     </li>
                     <li class="about__item">
                         <h3 class="about__header about__header--white">
-                            Lorem ipsum
+                            По заказу
                         </h3>
                         <p class="about__descr about__descr--white">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-                            corrupti esse voluptates nulla facere veniam vitae.
+                            Государственного бюджетного профессионального образовательного учреждения
+                            <strong class="about__strong">&laquo;ВОЛГОГРАДСКИЙ ТЕХНИЧЕСКИЙ КОЛЛЕДЖ&raquo;</strong>
                         </p>
                     </li>
                 </ul>
@@ -84,29 +94,30 @@
                     </div>
                     <div class="task__content">
                         <h2 class="task__header">
-                            Lorem Ipsum
+                            Поставленная задача
                         </h2>
                         <p class="task__descr">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sunt modi iste
-                            cupiditate dignissimos quidem iure quae, illo dicta, eaque itaque ab nemo ad ut et?
-                            Exercitationem nemo sit asperiores.
+                            На&nbsp;схеме офиса выбрать подходящую топологию, определить какая топология окажется
+                            дешевле. По&nbsp;условию задачи на&nbsp;каждом столе должен быть&nbsp;ПК, принтер
+                            и&nbsp;ip-телефон
                         </p>
+                        <h2 class="task__header">Характеристики</h2>
                         <ul class="task__list list-reset">
                             <li class="task__item">
-                                <span class="task__span">Lorem</span>
-                                <p class="task__descr">Lorem</p>
+                                <span class="task__span">Выбранная Топология</span>
+                                <p class="task__descr">Звезда</p>
                             </li>
                             <li class="task__item">
-                                <span class="task__span">Lorem</span>
-                                <p class="task__descr">Lorem</p>
+                                <span class="task__span">Кол-во ПК</span>
+                                <p class="task__descr">22</p>
                             </li>
                             <li class="task__item">
-                                <span class="task__span">Lorem</span>
-                                <p class="task__descr">Lorem</p>
+                                <span class="task__span">Кол-во Маршрутизаторов</span>
+                                <p class="task__descr">5</p>
                             </li>
                             <li class="task__item">
-                                <span class="task__span">Lorem</span>
-                                <p class="task__descr">Lorem</p>
+                                <span class="task__span">Кол-во Принтеров и Телефонов</span>
+                                <p class="task__descr">44</p>
                             </li>
                         </ul>
                     </div>
@@ -116,53 +127,62 @@
         <section class="main__section program__section">
             <div class="container program__container">
                 <h2 class="program__header">
-                    Lorem ipsum dolor
+                    Используемое ПО
                 </h2>
                 <p class="program__descr">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatibus amet accusantium
-                    doloremque? Hic reiciendis, molestiae fugit.
+                    В&nbsp;этом разделе будет описано, используемое&nbsp;ПO, для симуляции работы сети и&nbsp;создания
+                    отчёта
                 </p>
                 <ul class="program__list list-reset">
                     <li class="program__list__item">
-                        <img src="" alt="" class="program__list__image">
+                        <img src="img/program_list_icon_1.png" alt="" class="program__list__image">
                         <h3 class="program__list__header">
-                            Lorem Ipsum
+                            Cisco Packet Tracer
                         </h3>
                         <p class="program__list__descr">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed voluptatibus tempore,
-                            beatae atque non libero ut soluta distinctio aliquam et deserunt, eligendi rem sequi
-                            maiores. Animi reiciendis veritatis soluta.
+                            Cимулятор сети передачи данных, выпускаемый фирмой Cisco Systems. Позволяет делать
+                            работоспособные модели сети, настраивать (командами Cisco IOS) маршрутизаторы
+                            и&nbsp;коммутаторы, взаимодействовать между несколькими пользователями (через облако).
                         </p>
                         <button class="program__list__button btn btn-reset">
-                            Lorem Ipsum
+                            <a href="https://www.netacad.com/ru/courses/packet-tracer" class="program__list__link">
+                                Подробнее
+                            </a>
                         </button>
                     </li>
                     <li class="program__list__item">
-                        <img src="" alt="" class="program__list__image">
+                        <img src="img/program_list_icon_2.svg" alt="" class="program__list__image">
                         <h3 class="program__list__header">
-                            Lorem Ipsum
+                            Microsoft Word
                         </h3>
                         <p class="program__list__descr">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed voluptatibus tempore,
-                            beatae atque non libero ut soluta distinctio aliquam et deserunt, eligendi rem sequi
-                            maiores. Animi reiciendis veritatis soluta.
+                            Текстовый процессор, предназначенный для создания, просмотра, редактирования
+                            и&nbsp;форматирования текстов статей, деловых бумаг, а&nbsp;также иных документов,
+                            с&nbsp;локальным применением простейших форм таблично-матричных алгоритмов. Выпускается
+                            корпорацией Microsoft в&nbsp;составе пакета Microsoft Office.
                         </p>
                         <button class="program__list__button btn btn-reset">
-                            Lorem Ipsum
+                            <a href="https://www.microsoft.com/ru-ru/microsoft-365/word" class="program__list__link">
+                                Подробнее
+                            </a>
                         </button>
                     </li>
                     <li class="program__list__item">
-                        <img src="" alt="" class="program__list__image">
+                        <img src="img/program_list_icon_3.svg" alt="" class="program__list__image">
                         <h3 class="program__list__header">
-                            Lorem Ipsum
+                            Microsoft Excel
                         </h3>
                         <p class="program__list__descr">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed voluptatibus tempore,
-                            beatae atque non libero ut soluta distinctio aliquam et deserunt, eligendi rem sequi
-                            maiores. Animi reiciendis veritatis soluta.
+                            Программа для работы с&nbsp;электронными таблицами, созданная корпорацией Microsoft для
+                            Microsoft Windows, Windows NT&nbsp;и&nbsp;Mac&nbsp;OS, а&nbsp;также Android, iOS
+                            и&nbsp;Windows Phone. Она предоставляет возможности экономико-статистических расчетов,
+                            графические инструменты и&nbsp;язык макропрограммирования VBA (Visual Basic for
+                            Application). Microsoft Excel входит в&nbsp;состав Microsoft Office.
                         </p>
                         <button class="program__list__button btn btn-reset">
-                            Lorem Ipsum
+                            <a href="https://www.microsoft.com/ru-ru/microsoft-365/excel" class="program__list__link">
+                                Подробнее
+                            </a>
                         </button>
                     </li>
                 </ul>
@@ -170,34 +190,111 @@
         </section>
         <section class="main__section faq__section">
             <div class="container faq__container">
-                <h2 class="faq__header">Часто задаваемые вопросы</h2>
+                <h2 class="faq__header">Справочная информация</h2>
                 <ul class="faq__accordion accordion">
                     <li class="accordion__item">
-                        <h3 class="accordion__header">Lorem Ipsum</h3>
+                        <h3 class="accordion__header">Почему была выбрана топология &laquo;Звезда&raquo;</h3>
                         <p class="accordion__descr">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti
-                            autem excepturi sunt officiis nihil assumenda corporis voluptatem sint, perferendis vero
-                            deserunt. Molestias ex voluptatum deleniti aliquid quae veritatis earum consequatur.
+                            Для данного здания лучше всего по&nbsp;производительности и&nbsp;надежности ЛВС подходит
+                            топология &laquo;Звезда&raquo; т.к данная сеть легко расширяется и&nbsp;обладает высокой
+                            надежностью, компьютеры независимы от&nbsp;других машин и&nbsp;в&nbsp;случае обрыва кабеля
+                            сеть не&nbsp;прекратит свою работу. Сеть можно расширять не&nbsp;отключая&nbsp;её,
+                            так&nbsp;же данная топология отличается своей высокой скоростью. Главный её&nbsp;минус это
+                            цена и&nbsp;низкая допустимая длинна кабеля.
                         </p>
                     </li>
                     <li class="accordion__item">
-                        <h3 class="accordion__header">Lorem Ipsum</h3>
+                        <h3 class="accordion__header">Топология &laquo;Звезда&raquo;</h3>
                         <p class="accordion__descr">
-                            Numquam dolore laborum esse placeat minima error asperiores iure qui
-                            velit cupiditate? Nulla nihil repellendus voluptates nostrum, natus quas quo repudiandae in
-                            suscipit ducimus? Corrupti tempora in error odit. Ea.
+                            Звезда&nbsp;&mdash; базовая топология компьютерной сети, в&nbsp;которой все компьютеры сети
+                            присоединены к&nbsp;центральному узлу (обычно коммутатор), образуя физический сегмент сети.
+                            Подобный сегмент сети может функционировать как отдельно, так и&nbsp;в&nbsp;составе сложной
+                            сетевой топологии (как правило, &laquo;дерево&raquo;). Весь обмен информацией идет
+                            исключительно через центральный компьютер или агрегат, на&nbsp;который таким способом
+                            возлагается очень большая нагрузка, поэтому ничем другим, кроме сети, он&nbsp;заниматься
+                            не&nbsp;может. Как правило, именно центральный компьютер или агрегат является самым мощным
+                            в&nbsp;сетевом отношении, и&nbsp;именно на&nbsp;него возлагаются все функции
+                            по&nbsp;управлению сетью и&nbsp;передаче данных.
                         </p>
                     </li>
                     <li class="accordion__item">
-                        <h3 class="accordion__header">Lorem Ipsum</h3>
+                        <h3 class="accordion__header">Топология &laquo;Кольцо&raquo;</h3>
                         <p class="accordion__descr">
-                            Laboriosam quasi corrupti harum saepe. Distinctio amet pariatur
-                            inventore iste recusandae. Porro fugiat expedita quaerat, fuga perspiciatis, aliquid
-                            dignissimos quo, cum nisi at laudantium distinctio! Nulla a error natus omnis.
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero tempore sed exercitationem,
-                            soluta, nam at est reiciendis quo sapiente optio commodi minus voluptate praesentium
-                            delectus quas maxime error eaque mollitia.
+                            Топология, в&nbsp;которой каждый компьютер соединён линиями связи только с&nbsp;двумя
+                            другими: от&nbsp;одного он&nbsp;только получает информацию, а&nbsp;другому только передаёт.
+                            На&nbsp;каждой линии связи, как и&nbsp;в&nbsp;случае звезды, работает только один передатчик
+                            и&nbsp;один приёмник. Это позволяет отказаться от&nbsp;применения внешних терминаторов.
+                            Работа в&nbsp;сети кольца заключается в&nbsp;том, что каждый компьютер ретранслирует
+                            (возобновляет) сигнал, то&nbsp;есть выступает в&nbsp;роли повторителя, потому затухание
+                            сигнала во&nbsp;всём кольце не&nbsp;имеет никакого значения,важно только затухание между
+                            соседними компьютерами кольца. Чётко выделенного центра в&nbsp;этом случае нет, все
+                            компьютеры могут быть одинаковыми. Однако достаточно часто в&nbsp;кольце выделяется
+                            специальный абонент, который управляет обменом или контролирует обмен. Понятно, что наличие
+                            такого управляющего абонента снижает надёжность сети, потому что выход его из&nbsp;строя
+                            сразу&nbsp;же парализует весь обмен.
                         </p>
+                    </li>
+                    <li class="accordion__item">
+                        <h3 class="accordion__header">Иерархическая Топология</h3>
+                        <p class="accordion__descr">
+                            Топология компьютерной сети, в&nbsp;которой каждый узел более высокого уровня связан
+                            с&nbsp;узлами более низкого уровня звездообразной связью, образуя комбинацию звезд. Также
+                            дерево называют иерархической звездой.Название дерево пришло из&nbsp;теории графов. Первый
+                            узел дерева принято называть корнем, следующие узлы высокого уровня&nbsp;&mdash;
+                            родительскими, а&nbsp;узлы более низкого уровня&nbsp;&mdash; дочерними. Таким образом каждый
+                            дочерний узел, который имеет связь с&nbsp;более низкими узлами, является для этих узлов
+                            родительским.
+                        </p>
+                    </li>
+                    <li class="accordion__item">
+                        <h3 class="accordion__header">Полносвязная Топология</h3>
+                        <p class="accordion__descr">
+                            Топология компьютерной сети, в&nbsp;которой каждая рабочая станция подключена ко&nbsp;всем
+                            остальным. Этот вариант является громоздким и&nbsp;неэффективным, несмотря на&nbsp;свою
+                            логическую простоту. Для каждой пары должна быть выделена независимая линия, каждый
+                            компьютер должен иметь столько коммуникационных портов сколько компьютеров в&nbsp;сети.
+                            По&nbsp;этим причинам сеть может иметь только сравнительно небольшие конечные размеры. Чаще
+                            всего эта топология используется в&nbsp;многомашинных комплексах или глобальных сетях при
+                            малом количестве рабочих станций.
+                        </p>
+                    </li>
+                    <li class="accordion__item">
+                        <h3 class="accordion__header">Характеристики используемых компьютеров</h3>
+                        <ul class="pc__list">
+                            <li class="pc__item">
+                                <img src="img/task__pc.webp" alt="" class="pc__image">
+                            </li>
+                            <li class="pc__item">
+                                <h3 class="pc__header">Операционная Система</h3>
+                                <span class="pc__span">
+                                    Windows 10 PRO
+                                </span>
+                            </li>
+                            <li class="pc__item">
+                                <h3 class="pc__header">Процессор</h3>
+                                <span class="pc__span">
+                                    Intel Core i3-8100
+                                </span>
+                            </li>
+                            <li class="pc__item">
+                                <h3 class="pc__header">Общий объем ОЗУ</h3>
+                                <span class="pc__span">
+                                    8 ГБ
+                                </span>
+                            </li>
+                            <li class="pc__item">
+                                <h3 class="pc__header">Конфигурация SSD Накопителей</h3>
+                                <span class="pc__span">
+                                    240 ГБ
+                                </span>
+                            </li>
+                            <li class="pc__item">
+                                <h3 class="pc__header">Модель интегрированной видеокарты</h3>
+                                <span class="pc__span">
+                                    Intel UHD Graphics 630
+                                </span>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -207,18 +304,16 @@
         <div class="container footer__container">
             <div class="footer__left">
                 <a href="#" class="footer__logo logo">
-                    <img src="../img/logo.svg" alt="" class="logo__img">
+                    <img src="img/logo.svg" alt="" class="logo__img">
                     <span class="logo__name">Dimkins</span>
                 </a>
                 <p class="logo__descr">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione vero a nulla
-                    suscipit eos? Porro dolorem similique dolores sapiente quo rerum voluptates accusamus ad minus
-                    harum debitis voluptas, ut quasi!
+                    Современные решения для современных людей
                 </p>
             </div>
             <div class="footer__center">
                 <nav class="footer__nav fonav">
-                    <h2 class="center__header">Lorem Ipsum</h2>
+                    <h2 class="center__header">Меню</h2>
                     <ul class="fonav__list list-reset">
                         <li class="fonav__item"><a href="#" class="fonav__link">Главная</a></li>
                         <li class="fonav__item"><a href="#" class="fonav__link">О нас</a></li>
@@ -230,14 +325,25 @@
             </div>
             <div class="footer__right right">
                 <h3 class="right__header">
-                    Lorem Ipsum
+                    Контакты
                 </h3>
                 <address class="footer__address address">
                     <ul class="address__list list-reset">
-                        <li class="address__item"><a href="#" class="address__link">Lorem Ipsum</a></li>
-                        <li class="address__item"><a href="#" class="address__link">Lorem Ipsum</a></li>
-                        <li class="address__item"><a href="#" class="address__link">Lorem Ipsum</a></li>
-                        <li class="address__item"><a href="#" class="address__link">Lorem Ipsum</a></li>
+
+                        <li class="address__item">400074 Волгоград, улица Огарева, 6</li>
+                        <li class="address__item">
+                            <a href="tel:+7442308600" class="address__link">(8442) 30-86-00</a>
+                        </li>
+                        <li class="address__item">
+                            <a href="http://www.volgtehkol.ru/" class="address__link">
+                                www.volgtehkol.ru
+                            </a>
+                        </li>
+                        <li class="address__item"><a href="mailto:education@volganet.ru" class="address__link">
+                                education@volganet.ru
+                            </a>
+                        </li>
+
                     </ul>
                 </address>
             </div>
