@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/normilze.css">
     <link rel="stylesheet" href="styles/jquery-ui.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
     <title>Dimkins Network</title>
 </head>
 
@@ -17,6 +18,7 @@
             <div class="container header__container">
                 <a href="#" class="header__logo hlogo">
                     <img src="img/logo.svg" alt="" class="hlogo">
+                    <span class="logo__name">Dimkins</span>
                 </a>
                 <nav class="header__nav nav">
                     <ul class="nav__list list-reset">
@@ -27,6 +29,11 @@
                         <li class="nav__item"><a href="#" class="nav__link">Часто задаваемые вопросы</a></li>
                     </ul>
                 </nav>
+                <button class="burger btn-reset">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </button>
             </div>
 
         </header>
@@ -169,21 +176,24 @@
                     </li>
                     <li class="program__list__item">
                         <img src="img/program_list_icon_3.svg" alt="" class="program__list__image">
-                        <h3 class="program__list__header">
-                            Microsoft Excel
-                        </h3>
-                        <p class="program__list__descr">
-                            Программа для работы с&nbsp;электронными таблицами, созданная корпорацией Microsoft для
-                            Microsoft Windows, Windows NT&nbsp;и&nbsp;Mac&nbsp;OS, а&nbsp;также Android, iOS
-                            и&nbsp;Windows Phone. Она предоставляет возможности экономико-статистических расчетов,
-                            графические инструменты и&nbsp;язык макропрограммирования VBA (Visual Basic for
-                            Application). Microsoft Excel входит в&nbsp;состав Microsoft Office.
-                        </p>
-                        <button class="program__list__button btn btn-reset">
-                            <a href="https://www.microsoft.com/ru-ru/microsoft-365/excel" class="program__list__link">
-                                Подробнее
-                            </a>
-                        </button>
+                        <div class="program__list__wrapper">
+                            <h3 class="program__list__header">
+                                Microsoft Excel
+                            </h3>
+                            <p class="program__list__descr">
+                                Программа для работы с&nbsp;электронными таблицами, созданная корпорацией Microsoft для
+                                Microsoft Windows, Windows NT&nbsp;и&nbsp;Mac&nbsp;OS, а&nbsp;также Android, iOS
+                                и&nbsp;Windows Phone. Она предоставляет возможности экономико-статистических расчетов,
+                                графические инструменты и&nbsp;язык макропрограммирования VBA (Visual Basic for
+                                Application). Microsoft Excel входит в&nbsp;состав Microsoft Office.
+                            </p>
+                            <button class="program__list__button btn btn-reset">
+                                <a href="https://www.microsoft.com/ru-ru/microsoft-365/excel" class="program__list__link">
+                                    Подробнее
+                                </a>
+                            </button>
+                        </div>
+                       
                     </li>
                 </ul>
             </div>
@@ -296,6 +306,7 @@
                             </li>
                         </ul>
                     </li>
+
                 </ul>
             </div>
         </section>
@@ -339,7 +350,8 @@
                                 www.volgtehkol.ru
                             </a>
                         </li>
-                        <li class="address__item"><a href="mailto:education@volganet.ru" class="address__link">
+                        <li class="address__item">
+                            <a href="mailto:education@volganet.ru" class="address__link">
                                 education@volganet.ru
                             </a>
                         </li>
