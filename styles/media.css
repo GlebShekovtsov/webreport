@@ -80,34 +80,45 @@
     .task__container {
         padding: 50px;
     }
+    .task__image {
+        min-width: 40%;
+    }
     .program__list {
         flex-wrap: wrap;
     }
 
     .program__list .program__list__item {
         margin: 0;
-        width: calc((100% - 50px * 1) / 2);
-    }
-    .program__list .program__list__item:not(:nth-child(2n)) {
-        margin-right: 50px;
-    }
-    .program__list .program__list__item:not(:last-child) {
-        margin-bottom: 50px;
-    }
-    .program__list .program__list__item:last-child {
-        flex-wrap: wrap;
+        /* width: calc((100% - 50px * 1) / 2); */
+        /* flex-wrap: wrap; */
         justify-content: center;
         align-items: center;
         flex-direction: row;
         margin-right: 0;
         width: 100%;
     }
-    .program__list .program__list__item:last-child .program__list__image {
+    .program__list .program__list__item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .program__list .program__list__image {
+        min-width: 30%;
+        min-height: 30%;
         margin-right: 40px;
     }
-    .program__list__wrapper {
+    .program__list .program__list__wrapper {
         max-width: 700px;
     }
+    /* .program__list .program__list__item:not(:nth-child(2n)) {
+        margin-right: 50px;
+    }
+    .program__list .program__list__item:not(:last-child) {
+        margin-bottom: 50px;
+    } */
+
+ 
+    /* .program__list__wrapper {
+        max-width: 700px;
+    } */
     .footer {
         padding: 60px;
     }
@@ -217,7 +228,47 @@
         transform-origin: center;
         transition: transform 0.3s ease-in-out, top 0.3s ease-in-out, left 0.3s ease-in-out;
     }
+    .program__list .program__list__item {
+        flex-wrap: wrap;
+    }
     .footer {
         padding: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .task__wrapper {
+        /* flex-direction: column;
+        flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    .task__image {
+        /* display: flex;
+        align-self: center; */
+        margin: 0;
+        min-width: 100%;
+        min-height: 250px;
+    }
+    .task__header {
+        width: 100%;
+    }
+    .task__descr {
+        width: 100%;
+    }
+    .task__content {
+        width: 100%;
+    }
+    .footer__container {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer__left {
+        margin-bottom: 20px;
+    }
+    .footer__center {
+        margin-bottom: 20px;
+    }
+    .footer__right .right__header {
+        margin-bottom: 15px;
     }
 }

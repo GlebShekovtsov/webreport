@@ -22,11 +22,11 @@
                 </a>
                 <nav class="header__nav nav">
                     <ul class="nav__list list-reset">
-                        <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">О задаче</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Программное Обеспечение</a></li>
-                        <li class="nav__item"><a href="#" class="nav__link">Часто задаваемые вопросы</a></li>
+                        <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">О нас</a></li>
+                        <li class="nav__item"><a href="#task" class="nav__link">О задаче</a></li>
+                        <li class="nav__item"><a href="#program" class="nav__link">Программное Обеспечение</a></li>
+                        <li class="nav__item"><a href="#faq" class="nav__link">Часто задаваемые вопросы</a></li>
                     </ul>
                 </nav>
                 <button class="burger btn-reset">
@@ -37,20 +37,20 @@
             </div>
 
         </header>
-        <section class="main__section hero__section">
+        <section id="hero" class="main__section hero__section">
             <div class="container hero__container">
                 <h1 class="hero__header">
-                    Отчёт по монтажу ЛВС
+                    Монтаж ЛВС
                 </h1>
                 <p class="hero__descr">
-                    Сайт-отчёт по монтажу ЛВС в офисном помещении
+                    Предоставление услуг по монтажу ЛВС
                 </p>
                 <!-- <button class="hero__button btn-reset btn">
                     Lorem
                 </button> -->
             </div>
         </section>
-        <section class="main__section about__section">
+        <section id="about" class="main__section about__section">
             <div class="container about__container">
                 <ul class="about__list list-reset">
                     <li class="about__item">
@@ -93,7 +93,7 @@
                 </ul>
             </div>
         </section>
-        <section class="main__section task__section">
+        <section id="task" class="main__section task__section">
             <div class="container task__container">
                 <div class="task__wrapper">
                     <div class="task__image">
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="main__section program__section">
+        <section id="program" class="main__section program__section">
             <div class="container program__container">
                 <h2 class="program__header">
                     Используемое ПО
@@ -143,36 +143,41 @@
                 <ul class="program__list list-reset">
                     <li class="program__list__item">
                         <img src="img/program_list_icon_1.png" alt="" class="program__list__image">
-                        <h3 class="program__list__header">
-                            Cisco Packet Tracer
-                        </h3>
-                        <p class="program__list__descr">
-                            Cимулятор сети передачи данных, выпускаемый фирмой Cisco Systems. Позволяет делать
-                            работоспособные модели сети, настраивать (командами Cisco IOS) маршрутизаторы
-                            и&nbsp;коммутаторы, взаимодействовать между несколькими пользователями (через облако).
-                        </p>
-                        <button class="program__list__button btn btn-reset">
-                            <a href="https://www.netacad.com/ru/courses/packet-tracer" class="program__list__link">
-                                Подробнее
-                            </a>
-                        </button>
+                        <div class="program__list__wrapper">
+                            <h3 class="program__list__header">
+                                Cisco Packet Tracer
+                            </h3>
+                            <p class="program__list__descr">
+                                Cимулятор сети передачи данных, выпускаемый фирмой Cisco Systems. Позволяет делать
+                                работоспособные модели сети, настраивать (командами Cisco IOS) маршрутизаторы
+                                и&nbsp;коммутаторы, взаимодействовать между несколькими пользователями (через облако).
+                            </p>
+                            <button class="program__list__button btn btn-reset">
+                                <a href="https://www.netacad.com/ru/courses/packet-tracer" class="program__list__link">
+                                    Подробнее
+                                </a>
+                            </button>
+                        </div>
                     </li>
                     <li class="program__list__item">
                         <img src="img/program_list_icon_2.svg" alt="" class="program__list__image">
-                        <h3 class="program__list__header">
-                            Microsoft Word
-                        </h3>
-                        <p class="program__list__descr">
-                            Текстовый процессор, предназначенный для создания, просмотра, редактирования
-                            и&nbsp;форматирования текстов статей, деловых бумаг, а&nbsp;также иных документов,
-                            с&nbsp;локальным применением простейших форм таблично-матричных алгоритмов. Выпускается
-                            корпорацией Microsoft в&nbsp;составе пакета Microsoft Office.
-                        </p>
-                        <button class="program__list__button btn btn-reset">
-                            <a href="https://www.microsoft.com/ru-ru/microsoft-365/word" class="program__list__link">
-                                Подробнее
-                            </a>
-                        </button>
+                        <div class="program__list__wrapper">
+                            <h3 class="program__list__header">
+                                Microsoft Word
+                            </h3>
+                            <p class="program__list__descr">
+                                Текстовый процессор, предназначенный для создания, просмотра, редактирования
+                                и&nbsp;форматирования текстов статей, деловых бумаг, а&nbsp;также иных документов,
+                                с&nbsp;локальным применением простейших форм таблично-матричных алгоритмов. Выпускается
+                                корпорацией Microsoft в&nbsp;составе пакета Microsoft Office.
+                            </p>
+                            <button class="program__list__button btn btn-reset">
+                                <a href="https://www.microsoft.com/ru-ru/microsoft-365/word"
+                                    class="program__list__link">
+                                    Подробнее
+                                </a>
+                            </button>
+                        </div>
                     </li>
                     <li class="program__list__item">
                         <img src="img/program_list_icon_3.svg" alt="" class="program__list__image">
@@ -188,17 +193,18 @@
                                 Application). Microsoft Excel входит в&nbsp;состав Microsoft Office.
                             </p>
                             <button class="program__list__button btn btn-reset">
-                                <a href="https://www.microsoft.com/ru-ru/microsoft-365/excel" class="program__list__link">
+                                <a href="https://www.microsoft.com/ru-ru/microsoft-365/excel"
+                                    class="program__list__link">
                                     Подробнее
                                 </a>
                             </button>
                         </div>
-                       
+
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="main__section faq__section">
+        <section id="faq" class="main__section faq__section">
             <div class="container faq__container">
                 <h2 class="faq__header">Справочная информация</h2>
                 <ul class="faq__accordion accordion">
@@ -306,7 +312,20 @@
                             </li>
                         </ul>
                     </li>
+                    <li class="accordion__item">
+                        <h3 class="accordion__header">Схема проекта</h3>
+                        <ul class="accordion__list scheme list-reset">
 
+                            <li class="scheme__item">
+                                <h3 class="scheme__header">Изначальная схема проекта</h3>
+                                <img class="scheme__img" src="img/scheme.jpg" alt="">
+                            </li>
+                            <li class="scheme__item">
+                                <h3 class="scheme__header">Схема проекта с проложенной ЛВС</h3>
+                                <img src="img/cisco_scheme.png" alt="" class="scheme__img">
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </section>
